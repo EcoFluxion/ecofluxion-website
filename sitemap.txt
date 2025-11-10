@@ -1,0 +1,14 @@
+# Sitemap
+# EcoFluxion Corporate Website
+# Last Updated: November 2025
+
+https://www.ecofluxion.org/
+https://www.ecofluxion.org/index.html
+https://www.ecofluxion.org/#home
+https://www.ecofluxion.org/#about
+https://www.ecofluxion.org/#services
+https://www.ecofluxion.org/#projects
+https://www.ecofluxion.org/#technologies
+https://www.ecofluxion.org/#careers
+https://www.ecofluxion.org/#contact
+

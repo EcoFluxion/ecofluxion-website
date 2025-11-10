@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoFluxion - Leading AI and software development company specializing in NLP, LLMs, and enterprise solutions.">
+    <meta name="keywords" content="AI solutions, NLP, machine learning, software development, LLM, artificial intelligence">
+    <meta name="author" content="EcoFluxion">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="EcoFluxion - AI & Software Development">
+    <meta property="og:description" content="Creating large-scale, AI-integrated software systems for enterprise solutions">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./image/ecofluxion_logo.png">
+    
+    <title>EcoFluxion - AI & Software Development Solutions</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./image/ecofluxion_logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="./image/ecofluxion_logo.png" alt="EcoFluxion Logo" class="logo-img">
+                <span class="ms-2 fw-bold">EcoFluxion</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-translate="nav_home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-translate="nav_about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" data-translate="nav_services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-translate="nav_projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#technologies" data-translate="nav_technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#careers" data-translate="nav_careers">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-translate="nav_contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <div class="language-switcher">
+                            <button class="btn btn-sm btn-outline-light lang-btn" data-lang="en">EN</button>
+                            <button class="btn btn-sm btn-outline-light lang-btn" data-lang="tr">TR</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h1 class="display-3 fw-bold mb-4" data-translate="hero_title">
+                        Pioneering AI-Integrated Software Solutions
+                    </h1>
+                    <p class="lead mb-4" data-translate="hero_subtitle">
+                        Creating large-scale, intelligent systems that transform businesses through cutting-edge artificial intelligence and machine learning technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-lg me-3" data-translate="hero_btn_contact">Get Started</a>
+                        <a href="#projects" class="btn btn-outline-light btn-lg" data-translate="hero_btn_projects">View Projects</a>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="hero-image">
+                        <img src="./image/ecofluxion_logo.png" alt="EcoFluxion AI" class="img-fluid floating">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="section-title" data-translate="about_title">About EcoFluxion</h2>
+                    <p class="lead mb-4" data-translate="about_intro">
+                        Veriden Zekaya, Yazılımdan Başarıya.
+                    </p>
+                    <p data-translate="about_description">
+                        EcoFluxion, Ankara merkezli bir yazılım ve yapay zeka teknolojileri şirketidir. Doğal dil işleme (NLP), büyük dil modelleri (LLM) ve yapay zeka çözümlerinde uzmanlaşmış olan ekibimiz, özellikle Türkçe dil desteği ile kamu ve özel sektöre yönelik akıllı, güvenli ve ölçeklenebilir yazılım sistemleri geliştirmektedir.
+                    </p>
+                    <p data-translate="about_mission">
+                        Misyonumuz, yapay zeka ve veri analitiği teknolojilerini kullanarak kurumların dijital dönüşüm süreçlerine öncülük etmek, iş süreçlerini optimize etmek ve topluma değer katacak yenilikçi çözümler sunmaktır.
+                    </p>
+                    <p data-translate="about_vision">
+                        Vizyonumuz, Türkiye'nin önde gelen yapay zeka ve yazılım geliştirme şirketlerinden biri olarak, yerel ve uluslararası projelerde fark yaratan, teknoloji odaklı çözümler üreten bir organizasyon olmaktır.
+                    </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-translate="about_feature1_title">Innovation First</h4>
+                                <p data-translate="about_feature1_desc">Pushing the boundaries of AI technology with custom LLMs and advanced NLP solutions.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-translate="about_feature2_title">Excellence</h4>
+                                <p data-translate="about_feature2_desc">Delivering high-quality, scalable solutions that exceed client expectations.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-translate="about_feature3_title">Integrity</h4>
+                                <p data-translate="about_feature3_desc">Ethical AI development with a strong commitment to data privacy and security.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-translate="about_feature4_title">Sustainability</h4>
+                                <p data-translate="about_feature4_desc">Supporting green transformation and sustainable technology initiatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title" data-translate="services_title">Our Services</h2>
+                <p class="section-subtitle" data-translate="services_subtitle">
+                    Comprehensive AI and software solutions tailored to your business needs
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4 data-translate="service1_title">AI Solutions Development</h4>
+                        <p data-translate="service1_desc">Custom LLM development, NLP applications, conversational AI, and intelligent document processing systems.</p>
+                        <ul class="service-list">
+                            <li data-translate="service1_item1">Large Language Models</li>
+                            <li data-translate="service1_item2">NLP Applications</li>
+                            <li data-translate="service1_item3">Conversational AI</li>
+                            <li data-translate="service1_item4">Document Processing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 data-translate="service2_title">Enterprise Software</h4>
+                        <p data-translate="service2_desc">Large-scale web portals, cloud-native applications, microservices architecture, and API development.</p>
+                        <ul class="service-list">
+                            <li data-translate="service2_item1">Web Portals</li>
+                            <li data-translate="service2_item2">Cloud Applications</li>
+                            <li data-translate="service2_item3">Microservices</li>
+                            <li data-translate="service2_item4">API Integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h4 data-translate="service3_title">Digital Transformation</h4>
+                        <p data-translate="service3_desc">Legacy system modernization, cloud migration, process automation, and system integration services.</p>
+                        <ul class="service-list">
+                            <li data-translate="service3_item1">System Modernization</li>
+                            <li data-translate="service3_item2">Cloud Migration</li>
+                            <li data-translate="service3_item3">Process Automation</li>
+                            <li data-translate="service3_item4">Integration Services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 data-translate="service4_title">Consulting & Strategy</h4>
+                        <p data-translate="service4_desc">AI readiness assessment, technology roadmap planning, architecture design, and performance optimization.</p>
+                        <ul class="service-list">
+                            <li data-translate="service4_item1">AI Assessment</li>
+                            <li data-translate="service4_item2">Tech Roadmaps</li>
+                            <li data-translate="service4_item3">Architecture Design</li>
+                            <li data-translate="service4_item4">Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title" data-translate="projects_title">Featured Projects</h2>
+                <p class="section-subtitle" data-translate="projects_subtitle">
+                    Innovative solutions that make a difference
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(124, 179, 66, 0.9), rgba(85, 139, 47, 0.9)), url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800') center/cover;">
+                            <div class="project-overlay">
+                                <i class="fas fa-code fa-5x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category" data-translate="project1_category">AI Model Development</div>
+                            <h3 data-translate="project1_title">MevzuatBot</h3>
+                            <p data-translate="project1_desc">
+                                Advanced large language model (LLM) specifically designed for Turkish legal texts, integrating multiple AI components including RAG (Retrieval-Augmented Generation), MCP server agent system, and semantic understanding capabilities. These powerful components are utilized within the AvukatAI platform.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge" data-translate="tech_llm">Large Language Model</span>
+                                <span class="tech-badge" data-translate="tech_rag">Retrieval-Augmented Generation</span>
+                                <span class="tech-badge" data-translate="tech_mcp">MCP Agent System</span>
+                                <span class="tech-badge" data-translate="tech_nlp">Natural Language Processing</span>
+                                <span class="tech-badge" data-translate="tech_turkish">Turkish</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(124, 179, 66, 0.9), rgba(85, 139, 47, 0.9)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800') center/cover;">
+                            <div class="project-overlay">
+                                <i class="fas fa-gavel fa-5x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category" data-translate="project2_category">Legal Technology Platform</div>
+                            <h3 data-translate="project2_title">Avukatai</h3>
+                            <p data-translate="project2_desc">
+                                Comprehensive AI-powered legal platform featuring integrated archives, advanced case law search system, and intelligent legal assistance tools with secure cloud infrastructure. Designed for law firms, legal departments, and institutions seeking digital transformation.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge" data-translate="tech_llm">Large Language Model</span>
+                                <span class="tech-badge" data-translate="tech_search">Search Engine</span>
+                                <span class="tech-badge" data-translate="tech_archives">Archive System</span>
+                                <span class="tech-badge" data-translate="tech_cloud">Cloud Infrastructure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(124, 179, 66, 0.9), rgba(85, 139, 47, 0.9)), url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800') center/cover;">
+                            <div class="project-overlay">
+                                <i class="fas fa-leaf fa-5x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category" data-translate="project3_category">Green Transformation</div>
+                            <h3 data-translate="project3_title">SYDhub</h3>
+                            <p data-translate="project3_desc">
+                                Large-scale industrial green transformation portal connecting academia, industry sectors, and public institutions for sustainable development and knowledge sharing ecosystem.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge" data-translate="tech_portal">Web Portal</span>
+                                <span class="tech-badge" data-translate="tech_collaboration">Collaboration</span>
+                                <span class="tech-badge" data-translate="tech_database">Database</span>
+                                <span class="tech-badge" data-translate="tech_integration">Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title" data-translate="tech_title">Technologies We Master</h2>
+                <p class="section-subtitle" data-translate="tech_subtitle">
+                    Cutting-edge tools and frameworks powering our solutions
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="tech-item">
+                        <i class="fas fa-brain"></i>
+                        <h5 data-translate="tech1_title">Artificial Intelligence</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="tech-item">
+                        <i class="fas fa-robot"></i>
+                        <h5 data-translate="tech2_title">Large Language Models</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tech-item">
+                        <i class="fas fa-comments"></i>
+                        <h5 data-translate="tech3_title">Natural Language Processing</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="tech-item">
+                        <i class="fas fa-network-wired"></i>
+                        <h5 data-translate="tech4_title">Deep Learning & Neural Networks</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="tech-item">
+                        <i class="fas fa-eye"></i>
+                        <h5 data-translate="tech5_title">Computer Vision</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="tech-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h5 data-translate="tech6_title">Big Data & Analytics</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="tech-item">
+                        <i class="fas fa-cloud"></i>
+                        <h5 data-translate="tech7_title">Cloud Computing & DevOps</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in" data-aos-delay="450">
+                    <div class="tech-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h5 data-translate="tech8_title">Cybersecurity & Privacy</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tech-partners mt-5" data-aos="fade-up">
+                <h4 class="text-center mb-4" data-translate="tech_partners_title">Technology Partners</h4>
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-lg-2 col-md-3 col-4 partner-logo">
+                        <i class="fab fa-microsoft fa-3x"></i>
+                        <p class="mt-2">Microsoft Azure</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4 partner-logo">
+                        <i class="fab fa-aws fa-3x"></i>
+                        <p class="mt-2">AWS</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4 partner-logo">
+                        <i class="fab fa-google fa-3x"></i>
+                        <p class="mt-2">Google Cloud</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4 partner-logo">
+                        <i class="fab fa-python fa-3x"></i>
+                        <p class="mt-2">Python</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4 partner-logo">
+                        <i class="fab fa-node-js fa-3x"></i>
+                        <p class="mt-2">Node.js</p>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-4 partner-logo">
+                        <i class="fab fa-react fa-3x"></i>
+                        <p class="mt-2">React</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title" data-translate="careers_title">Join Our Team</h2>
+                <p class="section-subtitle" data-translate="careers_subtitle">
+                    Build the future of AI with us
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="career-benefits-card">
+                        <h3 class="mb-4" data-translate="careers_why_title">Why EcoFluxion?</h3>
+                        <div class="career-benefits">
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-translate="benefit1">Work on cutting-edge AI projects</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-translate="benefit2">Flexible work arrangements</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-translate="benefit3">Professional development opportunities</span>
+                            </div>
+                            <div class="benefit-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-translate="benefit4">Collaborative and innovative environment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="cv-submission-card">
+                        <h4 class="mb-3" data-translate="careers_send_cv_title">Send Us Your CV</h4>
+                        <p class="mb-4" data-translate="careers_send_cv_desc">
+                            We're always looking for talented individuals to join our team. Send us your CV and let's explore opportunities together.
+                        </p>
+                        <form id="cvForm" class="cv-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" id="cv_name" placeholder="Your Name" data-translate-placeholder="cv_form_name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" id="cv_email" placeholder="Your Email" data-translate-placeholder="cv_form_email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" id="cv_phone" placeholder="Phone Number" data-translate-placeholder="cv_form_phone" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" id="cv_position" placeholder="Desired Position" data-translate-placeholder="cv_form_position" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" data-translate="cv_form_cv_label">Upload Your CV (PDF)</label>
+                                <input type="file" class="form-control" id="cv_file" accept=".pdf" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="cv_message" rows="3" placeholder="Tell us about yourself" data-translate-placeholder="cv_form_message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg" data-translate="cv_form_submit">Submit Application</button>
+                            </div>
+                        </form>
+                        <div id="cvFormMessage" class="alert mt-3" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title" data-translate="contact_title">Get In Touch</h2>
+                <p class="section-subtitle" data-translate="contact_subtitle">
+                    Let's discuss how we can help transform your business
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact_address_title">Address</h5>
+                                <p data-translate="contact_address">Öveçler Mahallesi Niyet Caddesi No:8/13, Çankaya, Ankara, Turkey</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact_email_title">Email</h5>
+                                <p><a href="mailto:info@ecofluxion.com" style="color: inherit;">info@ecofluxion.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5 data-translate="contact_phone_title">Phone</h5>
+                                <p><a href="tel:+905424122111" style="color: inherit;">+90 542 412 2111</a></p>
+                            </div>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="https://tr.linkedin.com/company/ecofluxion" target="_blank" rel="noopener" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/EcoFluxion" target="_blank" rel="noopener" class="social-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" data-translate-placeholder="contact_form_name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" data-translate-placeholder="contact_form_email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="company" placeholder="Company Name" data-translate-placeholder="contact_form_company">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" data-translate-placeholder="contact_form_phone">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" id="service" required>
+                                <option value="" data-translate="contact_form_service_default">Select a service</option>
+                                <option value="ai" data-translate="contact_form_service_ai">AI Solutions</option>
+                                <option value="software" data-translate="contact_form_service_software">Software Development</option>
+                                <option value="transformation" data-translate="contact_form_service_transformation">Digital Transformation</option>
+                                <option value="consulting" data-translate="contact_form_service_consulting">Consulting</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" data-translate-placeholder="contact_form_message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" data-translate="contact_form_submit">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="alert mt-3" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="./image/ecofluxion_logo.png" alt="EcoFluxion" class="footer-logo">
+                        <h4>EcoFluxion</h4>
+                    </div>
+                    <p data-translate="footer_description">
+                        Veriden Zekaya, Yazılımdan Başarıya.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://tr.linkedin.com/company/ecofluxion" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/EcoFluxion" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 mb-4">
+                    <h5 data-translate="footer_company">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="#about" data-translate="footer_about">About Us</a></li>
+                        <li><a href="#careers" data-translate="footer_careers">Careers</a></li>
+                        <li><a href="#contact" data-translate="footer_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 mb-4">
+                    <h5 data-translate="footer_services">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#services" data-translate="footer_ai">AI Solutions</a></li>
+                        <li><a href="#services" data-translate="footer_software">Software Dev</a></li>
+                        <li><a href="#services" data-translate="footer_transformation">Transformation</a></li>
+                        <li><a href="#services" data-translate="footer_consulting">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 mb-4">
+                    <h5 data-translate="footer_resources">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#projects" data-translate="footer_projects">Projects</a></li>
+                        <li><a href="#technologies" data-translate="footer_technologies">Technologies</a></li>
+                        <li><a href="#" data-translate="footer_blog">Blog</a></li>
+                        <li><a href="#" data-translate="footer_case_studies">Case Studies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 mb-4">
+                    <h5 data-translate="footer_legal">Legal</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" data-translate="footer_privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-translate="footer_terms">Terms of Service</a></li>
+                        <li><a href="#" data-translate="footer_cookies">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="footer-copyright">
+                        &copy; 2024-2025 EcoFluxion. <span data-translate="footer_rights">All rights reserved.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
+

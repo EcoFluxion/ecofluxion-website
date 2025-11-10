@@ -1,0 +1,14 @@
+# Robots.txt for EcoFluxion Website
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.ecofluxion.org/sitemap.txt
+
+# Disallow admin areas (if any)
+# Disallow: /admin/
+
+# Crawl-delay
+Crawl-delay: 1
+

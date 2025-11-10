@@ -1,0 +1,46 @@
+{
+  "name": "ecofluxion-website",
+  "version": "1.0.0",
+  "description": "EcoFluxion Corporate Website - AI & Software Development Company",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests configured'",
+    "deploy": "echo 'Configure deployment command based on your hosting'"
+  },
+  "keywords": [
+    "ecofluxion",
+    "ai",
+    "machine-learning",
+    "nlp",
+    "software-development",
+    "corporate-website",
+    "bilingual",
+    "responsive"
+  ],
+  "author": "Tarık Şenkal",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ecofluxion-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ecofluxion-website/issues"
+  },
+  "homepage": "https://www.ecofluxion.org",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
+}
+
