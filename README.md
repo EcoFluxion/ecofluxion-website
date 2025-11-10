@@ -15,6 +15,7 @@ EcoFluxion is an Ankara-based software and artificial intelligence technology co
 - **Location:** Öveçler Mahallesi Niyet Caddesi No:8/13, Çankaya, Ankara, Turkey
 - **Phone:** +90 542 412 2111
 - **Email:** info@ecofluxion.com
+- **X (Twitter):** [https://x.com/ecofluxion](https://x.com/ecofluxion)
 - **LinkedIn:** [https://tr.linkedin.com/company/ecofluxion](https://tr.linkedin.com/company/ecofluxion)
 - **GitHub:** [https://github.com/EcoFluxion](https://github.com/EcoFluxion)
 - **Founded:** 2024
@@ -879,6 +880,7 @@ For technical issues or questions:
 
 ### Business Inquiries
 - **Email:** info@ecofluxion.com
+- **X (Twitter):** [EcoFluxion (@ecofluxion)](https://x.com/ecofluxion)
 - **LinkedIn:** [EcoFluxion Company Page](https://tr.linkedin.com/company/ecofluxion)
 
 ### Office Location
