@@ -10,7 +10,7 @@
     // Global Variables
     // ==========================================================================
     
-    let currentLanguage = localStorage.getItem('language') || 'en';
+    let currentLanguage = localStorage.getItem('language') || 'tr';
     
     // ==========================================================================
     // Initialize Everything on Document Ready
