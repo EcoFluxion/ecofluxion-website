@@ -12,7 +12,7 @@
 EcoFluxion is an Ankara-based software and artificial intelligence technology company. We specialize in Natural Language Processing (NLP), Large Language Models (LLM), and AI solutions, developing intelligent, secure, and scalable software systems for public and private sectors, particularly with Turkish language support.
 
 ### Company Information
-- **Location:** Öveçler Mahallesi Niyet Caddesi No:8/13, Çankaya, Ankara, Turkey
+- **Location:** Mustafa Kemal Mahallesi Bilişim İnovasyon Merkezi ODTÜ Teknokent 06510 Çankaya, Ankara
 - **Phone:** +90 542 412 2111
 - **Email:** info@ecofluxion.com
 - **X (Twitter):** [https://x.com/ecofluxion](https://x.com/ecofluxion)
