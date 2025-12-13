@@ -2,13 +2,13 @@
 # EcoFluxion Corporate Website
 # Last Updated: November 2025
 
-https://www.ecofluxion.org/
-https://www.ecofluxion.org/index.html
-https://www.ecofluxion.org/#home
-https://www.ecofluxion.org/#about
-https://www.ecofluxion.org/#services
-https://www.ecofluxion.org/#projects
-https://www.ecofluxion.org/#technologies
-https://www.ecofluxion.org/#careers
-https://www.ecofluxion.org/#contact
+https://www.ecofluxion.com/
+https://www.ecofluxion.com/index.html
+https://www.ecofluxion.com/#home
+https://www.ecofluxion.com/#about
+https://www.ecofluxion.com/#services
+https://www.ecofluxion.com/#projects
+https://www.ecofluxion.com/#technologies
+https://www.ecofluxion.com/#careers
+https://www.ecofluxion.com/#contact
 
